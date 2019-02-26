@@ -20,6 +20,7 @@
             
             <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
         
+            <link href="css/hover-min.css" rel="stylesheet">
         
         
         <title>Bull's eye </title>
@@ -38,22 +39,29 @@
         
             .carousel
             {
+              
                 
-              border: 30px solid transparent;
+              border: 80px   solid transparent;
+             
+                
+                border-image:url(images/portrait_black.png) 400 500 ;
+                
+                     
+                      border-image-outset:0px !important;
+                    
+                    margin-bottom:15px;
+                
+            }
+            
+            
+            .carousel-inner{
                
-                border-image:url(images/portrait_black.png) 400 400 stretch;
-                  
+           margin: 0 !important;
+                padding: 0 !important;
+                
             }
-            
-            .carousel-inner carousel{
-                 border-image-repeat: round;
-                border-image-outset:2px;
-                margin: inherit;
-                height: inherit;
-                width: inherit;
-            }
-            
-            
+           
+       
         </style>
         
       
@@ -116,7 +124,7 @@
                     <div class="row">
                        
                         
-                          <div class="col-sm-6">
+                          <div class="col-md-6">
 								<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
 								  <div class="carousel-inner">
 									<div class="carousel-item active">
@@ -142,9 +150,10 @@
                         
                
                     
-                        <div class="col-sm-6">
+                        <div class="col-md-6">
                                 
                                 <h2>
+                                    <i class="fas fa-crosshairs"></i>
                                     Slogan
                                 </h2>
                 
@@ -159,24 +168,27 @@
                 
                 
                 
-                        <div class="row middle">
+                        <div class=  " row middle">
                             
                             
-                          <div class="col-sm-8">
+                          <div class="col-sm-6">
                               <div class="col-md-12">
-                                <div id="mySidenav" class="sidenav">
-                                  <a href="#" id="about">Digital marketing</a>
-                                  <a href="#" id="blog">Event managment</a>
-                                  <a href="#" id="projects">Art creation</a>
-                                  <a href="#" id="contact">Marketing solutions</a>
-                                </div>
-
+                             <h2 class="services"  >   <i class="fas fa-cogs"></i>  Services</h2>
+                                        
+                                  <div class="btn-group-vertical">
+                                      
+                                    <button type="button" class="btn1">  <i class="fas fa-bullhorn"></i> Digital Marketing </button>
+                                    <button type="button" class="btn1">  <i class="fas fa-video"></i>  Art Creation </button>
+                                    <button type="button" class="btn1">  <i class="fas fa-calendar-check"></i>  Event Management </button>
+                                       <button type="button" class="btn1"> <i class="fas fa-chart-bar"></i>    Marketing Solutions</button>
+                                    
+                                  </div>
                               </div>
                 
                                 </div>
-   
+    
 
-                              <div class="col-sm-4">
+                              <div class="col-sm-6">
                                   <div class="col-md-12">
                                 <div class="card">
                                   <div class="card-body">
@@ -189,12 +201,12 @@
                             </div>
                           
                 </div>
-                        </div>
+                        
                 
                 
                 
             
-            </div>
+           
             
             <footer>
                     	<div class="row mt-10 p-3">
@@ -240,7 +252,7 @@
         
         
         
-        
+         </div>
         
         
         
